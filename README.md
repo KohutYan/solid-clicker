@@ -104,22 +104,6 @@ Widget build(BuildContext context) {
 }
 ```
 
-### Adding Supported Locales
-
-Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info.plist` to include
-the new locale.
-
-```xml
-    ...
-
-<key>CFBundleLocalizations</key>    <array>
-<string>en</string>
-<string>es</string>
-</array>
-
-    ...
-```
-
 ### Adding Translations
 
 1. For each supported locale, add a new ARB file in `lib/l10n/arb`.
@@ -138,21 +122,9 @@ the new locale.
 ```arb
 {
     "@@locale": "en",
-    "counterAppBarTitle": "Counter",
+    "counterAppBarTitle": "Title",
     "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
-    }
-}
-```
-
-`app_es.arb`
-
-```arb
-{
-    "@@locale": "es",
-    "counterAppBarTitle": "Contador",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
+        "description": "Some title text description"
     }
 }
 ```
