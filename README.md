@@ -1,6 +1,5 @@
 # Solid Clicker
 
-![coverage][coverage_badge]
 [![style: solid][solid_lints_badge]][solid_lints]
 [![License: MIT][license_badge]][license_link]
 
@@ -141,8 +140,6 @@ flutter gen-l10n --arb-dir="lib/l10n/arb"
 
 Alternatively, run `flutter run` and code generation will take place automatically.
 
-[coverage_badge]: coverage_badge.svg
-
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
 
 [internationalization_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
@@ -154,7 +151,5 @@ Alternatively, run `flutter run` and code generation will take place automatical
 [solid_lints_badge]: https://img.shields.io/badge/style-solid-orange
 
 [solid_lints]: https://pub.dev/packages/solid_lints
-
-[very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
