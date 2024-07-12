@@ -1,4 +1,4 @@
-package com.example.verygoodcore.solid_test
+package com.kohutyan.solid_test
 
 import io.flutter.embedding.android.FlutterActivity
 
