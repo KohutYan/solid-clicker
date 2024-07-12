@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "clickerScreenTitle": "Hey there",
+  "vibration": "Vibration",
+  "clickerShareText": "Hey there! I've tapped {count} times! And my current color is {color}!",
+  "@clickerShareText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "color": {
+        "type": "String"
+      }
+    }
+  }
+}
