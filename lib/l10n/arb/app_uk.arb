@@ -1,0 +1,16 @@
+{
+  "@@locale": "uk",
+  "clickerScreenTitle": "Привітулі",
+  "vibration": "Вібрація",
+    "clickerShareText": "Привітулі! Я тапнув {count} разів! І мій колір зараз {color}!",
+  "@clickerShareText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "color": {
+        "type": "String"
+      }
+    }
+  }
+}
