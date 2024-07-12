@@ -1,4 +1,4 @@
-# Solid Test
+# Solid Clicker
 
 ![coverage][coverage_badge]
 [![style: solid][solid_lints_badge]][solid_lints]
