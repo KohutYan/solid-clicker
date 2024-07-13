@@ -52,9 +52,17 @@ class ClickerBloc extends Bloc<ClickerEvent, ClickerState> {
 
   Future<void> _vibrate() async {
     final hasVibrator = await Vibration.hasVibrator() ?? false;
+    final isHaptic = await Vibration.hasAmplitudeControl() ?? false;
 
     if (hasVibrator) {
-      await Vibration.vibrate(duration: 1);
+      const hapticVibrationDuration = 1;
+      const simpleVibrationDuration = 50;
+
+      if (isHaptic) {
+        await Vibration.vibrate(duration: hapticVibrationDuration);
+      } else {
+        await Vibration.vibrate(duration: simpleVibrationDuration);
+      }
     }
   }
 }
